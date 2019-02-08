@@ -1,0 +1,17 @@
+{% load static %}
+<html>
+	<head>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+		<title>First website</title>
+	</head>
+<body>
+	<div>
+    	<h1><a href="/">Hi there!</a></h1>
+	</div>
+
+	{% block content %}
+	{% endblock %}
+</body>
+</html>
